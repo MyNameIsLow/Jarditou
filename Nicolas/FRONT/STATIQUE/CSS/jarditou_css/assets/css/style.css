@@ -1,0 +1,147 @@
+
+/*INDEX & COMMON POINTS*/
+
+.navi {
+ background-color: black;
+ text-decoration: underline;
+padding: 2px;
+
+}
+
+ul {
+    display: flex;
+    color: white;
+    list-style-type: none; 
+   
+}
+
+a {
+    color: white;
+}
+
+li {
+    
+    margin-right: 5px;
+    margin-top: 10px;
+}
+
+footer {
+    background-color: black;
+    text-decoration: underline;
+    position: relative;
+    margin-top: 50px;
+    display: flex;
+    justify-content: flex-start;
+    padding: 1px;  
+}
+blockquote{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    margin-left: 400px;
+    margin-top: 0px;
+    font-size: 20px;
+    font-family: 'Times New Roman', Times, serif;
+    top: -10px;  
+ }
+
+ .logo {
+top: 0px;
+margin-bottom: -30px;
+ }
+
+ .promo {
+    width: 100%;
+    height: auto;
+    clear: right;
+    position: relative;
+    top: 15px;  
+ }
+
+ .box {
+    background: rgb(203, 203, 211);
+    position: relative;
+    height: auto;
+    width: 900px;
+    top: 25px;
+ }
+ 
+    .container {
+        display: flex; 
+    }
+
+    .accueuil {
+ display: block;
+ }
+
+
+
+/* TABLEAU*/
+
+.tab {
+    display: block;
+    margin-top: 15px;
+   }
+  
+  .boxtab {
+    background: rgb(203, 203, 211);
+    position: relative;
+    margin-left: 100px;
+    top: 25px;
+    height: auto;
+    width: 1500px;
+  }
+   
+   
+
+       .containertab {
+        display: flex;
+       }
+
+
+       /*FORMULAIRE*/
+       
+       .divcontact {
+
+        display: flex;
+       }
+
+       .ul {
+
+        display: flex;
+        justify-content: flex-start;
+       
+     }
+     
+
+     /*MEDIA*/
+
+   @media screen and (max-width: 768px) {
+.box {
+
+display: none;
+}
+.ul {
+    display: flex;
+    flex-direction:column ;
+    
+}
+
+footer {
+    display: flex;
+    flex-direction:column ;
+
+}
+.boxtab {
+
+    display: none;
+}
+
+ 
+ .all {
+    font-size: 1.3rem;
+
+
+ }
+
+}
